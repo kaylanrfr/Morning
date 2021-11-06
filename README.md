@@ -9,9 +9,9 @@ Quantas emoções, agora essa lenda vai ser uma linguagem própria.
 
 ## Colaboradores
 
-  * kaylan<br/>
-  * Alexandre<br/>
-  * Clemente<br/>
-  * Pedro
+  * Alexandre Maia
+  * Kaylan Rocha
+  * Lucas Clemente
+  * Pedro Cavadas
 
 **Versão 0.0.0.0**
