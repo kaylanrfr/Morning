@@ -3,11 +3,11 @@
 **FALA COMIGO TURNO DA MANHÃ**<br/>
 Quantas emoções, agora essa lenda vai ser uma linguagem própria.
 
-##TO DO<h2>
+<h2>TO DO<h2/>
 
 Preencher o To do..
 
-Colaboradores<h2>
+<h2>Colaboradores<h2/>
 
   kaylan<br/>
   Alexandre<br/>
