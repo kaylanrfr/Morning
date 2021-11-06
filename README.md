@@ -7,7 +7,7 @@ Quantas emoções, agora essa lenda vai ser uma linguagem própria.
 
 Preencher o To do..
 
-##Colaboradores<h2>
+Colaboradores<h2>
 
   kaylan<br/>
   Alexandre<br/>
