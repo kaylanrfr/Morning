@@ -6,6 +6,8 @@ Quantas emoções, agora essa lenda vai ser uma linguagem própria.
 ## TO DO
 
 * Preencher o To do..
+* Guia instalação flex e yac (Windows e Linux)
+* Criar e explicar regras arquivo LEX
 
 ## Colaboradores
 
