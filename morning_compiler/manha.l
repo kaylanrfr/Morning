@@ -1,11 +1,8 @@
-//Inicio, este será o arquivo com as regras do compilador.
-
 %{
    // Definitions
    #include<stdio.h>
 %}
 
-//TOKENS
 DIGIT[0-9]+
 LETRA[a-zA-Z]
 ID[a-zA-Z0-9]*
@@ -16,7 +13,6 @@ COMENTARIO_INICIO[/*]
 COMENTARIO_FIM[*/]
 
 %%
-//REGRAS
 if|else {printf("[%s] - > Condicional\n", yytext);}
 
 
