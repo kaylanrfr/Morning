@@ -22,6 +22,9 @@ if|else {printf("[%s] - > Condicional\n", yytext);}
 
 "+" {printf("[%s] -> Soma\n", yytext);}
 
+{ABRE} {printf("[%s] -> Abriu algo aqui, se liga\n", yytext);}
+
+
 %%
 int main(){
   yylex();
