@@ -9,12 +9,19 @@ Iremos atualizar esse arquivo conforme desenvolvermos a linguagem e tudo mais
 ## TOKENS
 
 DIGIT[0-9]+
+
 ID[a-zA-Z]+[a-zA-Z0-9]*
+
 ESPACO BRANCO[ ]
+
 ABRE[(]
+
 FECHA[)]
+
 COMENTARIO_INICIO[/*]
+
 COMENTARIO_FIM[*/]
+
 ATRIBUI[=]
 
 
