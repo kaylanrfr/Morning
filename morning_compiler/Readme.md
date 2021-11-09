@@ -33,6 +33,7 @@ ATRIBUI[=]
 #### Atribuição será :
 
 * declara
+
  ID ATRIBUI ID | DIGIT | express
 
 #### Expressão será :
