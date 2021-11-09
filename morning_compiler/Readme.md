@@ -10,7 +10,7 @@ Iremos atualizar esse arquivo conforme desenvolvermos a linguagem e tudo mais
 
 DIGIT[0-9]+
 
-ID[a-zA-Z]+[a-zA-Z0-9]*
+ID "[a-zA-Z]+[a-zA-Z0-9]*"
 
 ESPACO BRANCO[ ]
 
