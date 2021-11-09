@@ -27,16 +27,22 @@ ATRIBUI[=]
 
 ### Precisamos de :
 
-* O Programa será :
+* O Programa se inicia com :
  "Bomdia" declara blocos
 
 * Atribuição será :
+** declara
  ID ATRIBUI ID | DIGIT | express
 
 * Expressão será :
+** express
   DIGIT | ID comando DIGIT | ID
   
 * comando serão :
-[+] | [-] | [*] | [/] | [==]
+** comando soma     [+] 
+|  comando sub      [-] 
+|  comando mult     [*] 
+|  comando div      [/] 
+|  comando compara  [==]
 
       
