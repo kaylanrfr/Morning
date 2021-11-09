@@ -31,15 +31,19 @@ ATRIBUI[=]
  "Bomdia" declara blocos
 
 * Atribuição será :
-**declara
+
+** declara
  ID ATRIBUI ID | DIGIT | express
 
 * Expressão será :
+
 **express
+
   DIGIT | ID comando DIGIT | ID
   
 * comando serão :
-**comando soma     [+] 
+
+** comando soma     [+] 
 |  comando sub      [-] 
 |  comando mult     [*] 
 |  comando div      [/] 
