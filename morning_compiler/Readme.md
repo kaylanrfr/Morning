@@ -37,6 +37,6 @@ ATRIBUI[=]
   DIGIT | ID comando DIGIT | ID
   
 * comando serão :
-[+] | [-] | [*] | [/]
+[+] | [-] | [*] | [/] | [==]
 
       
