@@ -44,7 +44,7 @@ stdio.h {printf("[%s] - > Biblioteca\n", yytext);}
 
 {ABRE} {printf("[%s] -> Abriu algo aqui, se liga\n", yytext);}
 {FECHA} {printf("[%s] -> Fechou algo aqui, se liga\n", yytext);}
-{COMENTARIO_INICIO}+{LETTER}+{COMENTARIO_FIM} + {printf("[%s] -> Comentario\n", yytext);}
+{COMENTARIO_INICIO}+{LETTER}+{COMENTARIO_FIM}+ {printf("[%s] -> Comentario\n", yytext);}
 {DIGIT}+{ID}+ {printf("[%s] -> Erro\n", yytext);}
 {WHITESPACE} {printf("[%s] -> Espaco em branco\n", yytext);}
 {DIGIT} {printf("[%s] -> Digito\n", yytext);}
