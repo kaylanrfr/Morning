@@ -6,7 +6,7 @@
 DIGIT[0-9]+
 LETRA[a-zA-Z]
 ID[a-zA-Z0-9]*
-ESPACO BRANCO[ ]
+ESPACOBRANCO[ ]
 ABRE[(]
 FECHA[)]
 COMENTARIO_INICIO[/*]
@@ -46,7 +46,7 @@ stdio.h {printf("[%s] - > Biblioteca\n", yytext);}
 {FECHA} {printf("[%s] -> Fechou algo aqui, se liga\n", yytext);}
 {COMENTARIO_INICIO}+{LETTER}+{COMENTARIO_FIM}+ {printf("[%s] -> Comentario\n", yytext);}
 {DIGIT}+{ID}+ {printf("[%s] -> Erro\n", yytext);}
-{WHITESPACE} {printf("[%s] -> Espaco em branco\n", yytext);}
+{ESPACOBRANCO} {printf("[%s] -> Espaco em branco\n", yytext);}
 {DIGIT} {printf("[%s] -> Digito\n", yytext);}
 {ID} {printf("[%s] -> Identificador\n", yytext);}
 
