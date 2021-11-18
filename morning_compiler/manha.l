@@ -4,7 +4,7 @@
 %}
 
 DIGIT[0-9]+
-LETRA[a-zA-Z]
+LETRA[a-zA-Z]+
 ID[a-zA-Z0-9]*
 ESPACOBRANCO[ ]
 ABRE[(]
@@ -42,17 +42,25 @@ stdio.h {printf("[%s] - > Biblioteca\n", yytext);}
 ";" {printf("[%s] -> Ponto e virgula\n", yytext);}
 "," {printf("[%s] -> Virgula\n", yytext);}
 
+{DIGIT} {printf("[%s] -> Digito\n", yytext);}
 {ABRE} {printf("[%s] -> Abriu algo aqui, se liga\n", yytext);}
 {FECHA} {printf("[%s] -> Fechou algo aqui, se liga\n", yytext);}
-{COMENTARIO_INICIO}+{LETTER}+{COMENTARIO_FIM}+ {printf("[%s] -> Comentario\n", yytext);}
+{COMENTARIO_INICIO}+{ESPACOBRANCO}*({LETRA}|{ID})*{ESPACOBRANCO}*{COMENTARIO_FIM}+ {printf("[%s] -> Comentario\n", yytext);}
 {DIGIT}+{ID}+ {printf("[%s] -> Erro\n", yytext);}
 {ESPACOBRANCO} {printf("[%s] -> Espaco em branco\n", yytext);}
-{DIGIT} {printf("[%s] -> Digito\n", yytext);}
 {ID} {printf("[%s] -> Identificador\n", yytext);}
 
+"
+
 %%
+
+int yywrap()
+{
+  return 1;
+}
+
 int main(){
+  printf("Enter a string\n");
   yylex();
   return 0;
 }
-
