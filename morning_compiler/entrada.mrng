@@ -1,0 +1,12 @@
+inteiraco a
+boiando b
+
+enquanto 1 [
+
+falacomigo a
+falacomigo b
+
+meteuessa x > y[
+    escrever "z eh o maior"]
+senao [
+    escrever "z eh o maior"]]
