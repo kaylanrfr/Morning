@@ -83,7 +83,6 @@ expr:
 
 void yyerror(char *s){
     fprintf(stderr, "%s\n", s);
-    return 0;
 }
 
 void parse(FILE* fileInput, FILE* fileOutput){
