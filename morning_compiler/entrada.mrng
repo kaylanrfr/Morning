@@ -6,7 +6,7 @@ enquanto 1 [
 falacomigo a
 falacomigo b
 
-meteuessa x > y[
-    escrever "z eh o maior"]
-senao [
-    escrever "z eh o maior"]]
+meteuessa a > b[
+    quepapinhohein "[a] e' maior que [b]"]
+ih [
+    quepapinhohein "[b] e' maior que [a]"]]
