@@ -1,12 +1,17 @@
 inteiraco a
 boiando b
-
+boiando c
 enquanto 1 [
-
 falacomigo a
 falacomigo b
-
+falacomigo c
 meteuessa a > b[
-    quepapinhohein "[a] e' maior que [b]"]
+    meteuessa a > c[
+        quepapinhohein "a eh o maior"]
+    ih[
+        quepapinhohein "c eh o maior" ]]
 ih [
-    quepapinhohein "[b] e' maior que [a]"]]
+    meteuessa b > c[
+        quepapinhohein "b eh o maior"]
+    ih [
+        quepapinhohein "c eh o maior"]]]
