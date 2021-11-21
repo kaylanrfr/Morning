@@ -47,6 +47,8 @@ digitar "3" (apertar enter)<br/>
 digitar "2" (apertar enter)<br/>
 <br/>
 A saída esperada para esse teste deve ser "b eh o maior"<br/>
+<br/>
+Você pode continuar testando quantas vezes desejar.<br/>
 
 ## Colaboradores
 
