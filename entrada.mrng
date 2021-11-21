@@ -1,0 +1,17 @@
+inteiraco a
+boiando b
+boiando c
+enquanto 1 [
+falacomigo a
+falacomigo b
+falacomigo c
+meteuessa a > b[
+    meteuessa a > c[
+        quepapinhohein "a eh o maior"]
+    ih[
+        quepapinhohein "c eh o maior" ]]
+ih [
+    meteuessa b > c[
+        quepapinhohein "b eh o maior"]
+    ih [
+        quepapinhohein "c eh o maior"]]]
